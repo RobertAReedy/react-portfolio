@@ -1,0 +1,137 @@
+:root {
+  --liteBlue: rgb(146, 204, 205);
+  --darkBlue: rgb(49, 52, 61);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  background-color: var(--liteBlue);
+  color: var(--darkBlue);
+  margin: 7px 0;
+  padding: 5px 5px 5px 30px;
+  text-align: right;
+  font-weight: bold;
+}
+
+header nav {
+  margin-top: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav ul li {
+  margin: 0 10px;
+  padding: 0 10px;
+  border-bottom: rgb(146, 204, 205) 3px solid;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color:rgb(146, 204, 205);
+}
+
+.hero {
+  background-image: linear-gradient(to right, var(--liteBlue) , var(--darkBlue));
+  text-align: right;
+  padding: 60px 30px 10px 0;
+}
+
+.hero h3 {
+  font-size: x-large;
+  background-color: var(--liteBlue);
+  color: var(--darkBlue);
+  display: inline;
+  padding: 0 5px;
+}
+
+.about-me, .work, #contact {
+  padding-top: 20px;
+  background-color: rgb(223, 241, 240);
+}
+
+.header-text {
+  border-right: var(--darkBlue) solid 4px;
+  text-align: right;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  padding: 100px 0 20px 0;
+  border: var(--liteBlue) solid 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 49%;
+  background-image: url(./images/default.jpeg);
+  background-position: top;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.feature {
+  display: block;
+  width: 100%;
+  /* background-image: url(./images/dndDragon.jpg); */
+}
+
+#proj-1 {
+  /* background-image: url(./images/hero-pokegen_bg.png); */
+  background-size:cover;
+  background-position: center;
+}
+
+.project div {
+  background-color: var(--liteBlue);
+  display: inline-block;
+  width: 195px;
+  padding-top: 7px;
+}
+
+.project h3, .project a {
+  font-size: large;
+  text-align: center;
+  color: var(--darkBlue);
+}
+
+.project a {
+  line-height: 0;
+}
+
+.project h4 {
+  font-size: small;
+  color: var(--darkBlue);
+}
+
+.contact-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-list a {
+  color: var(--darkBlue);
+  font-weight: bold;
+  border-bottom: var(--darkBlue) solid 4px;
+}

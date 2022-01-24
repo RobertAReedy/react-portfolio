@@ -1,0 +1,21 @@
+ul {
+  list-style-type: disc;
+  margin: 0px 0 20px 40px
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin: 20px 0 10px 10px;
+}
+
+h4 {
+  display: inline;  
+  margin-left: 10px;
+}
+
+h4:hover {
+  text-decoration: underline;
+}

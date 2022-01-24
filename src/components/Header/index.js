@@ -1,22 +1,32 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
+  const {setCurrentPage} = props; 
+
   return (
     <header>
       <h1>Robert Reedy</h1>
       <nav>
         <ul>
-          <li>
-            <a href="#about-me">About Me</a>
+          <li onClick={() => {
+            setCurrentPage("AboutMe")
+          }}>
+            About Me
           </li>
-          <li>
+          <li onClick={() => {
+            setCurrentPage("Portfolio")
+          }}>
             Portfolio
           </li>
-          <li>
-            <a href="#contact">Contact Me</a>
+          <li onClick={() => {
+            setCurrentPage("Contact")
+          }}>
+            Contact Me
           </li>
-          <li>
-            <a href="#Resume">Resume</a>
+          <li onClick={() => {
+            setCurrentPage("Resume")
+          }}>
+            Resume
           </li>
         </ul>
       </nav>

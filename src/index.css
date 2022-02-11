@@ -128,6 +128,12 @@ header nav ul li a {
   background-position: center;
 }
 
+#proj-2 {
+  background-image: url(./images/rr-icon.png);
+  background-size:cover;
+  background-position: center;
+}
+
 .project div {
   background-color: var(--liteBlue);
   display: inline-block;

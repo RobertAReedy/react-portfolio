@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/resume.css";
+import file from "./placeholder-resume.docx"
 
 const Resume = () => {
   return (
@@ -25,8 +26,8 @@ const Resume = () => {
       </ul>
 
       <a 
-        href="/../../../placeholder-resume.docx"
-        download={"placeholder-resume.docx"}
+        href={file}
+        download
       >
         <h4>Download Resume</h4>
       </a>

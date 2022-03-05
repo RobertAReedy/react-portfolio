@@ -52,9 +52,15 @@ header nav ul {
 header nav ul li {
   margin: 0 10px;
   padding: 0 10px;
-  border-bottom: rgb(146, 204, 205) 3px solid;
+  border-bottom: var(--liteBlue) 3px solid;
+  color: var(--liteBlue);
   text-decoration: none;
-  color:rgb(146, 204, 205);
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  color:rgb(208, 244, 245);
+  border-bottom: rgb(208, 244, 245) 3px solid;
 }
 
 header nav ul li a {

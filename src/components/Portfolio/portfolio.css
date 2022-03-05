@@ -1,0 +1,58 @@
+.work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  padding: 100px 0 20px 0;
+  border: var(--liteBlue) solid 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 49%;
+  background-image: url(../../images/default.jpeg);
+  background-position: top;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.feature {
+  display: block;
+  width: 100%;
+  background-image: url(../../images/dndDragon.jpg);
+}
+
+#proj-1 {
+  background-image: url(../../images/hero-pokegen_bg.png);
+  background-size:cover;
+  background-position: center;
+}
+
+#proj-2 {
+  background-image: url(../../images/rr-icon.png);
+  background-size:cover;
+  background-position: center;
+}
+
+.project div {
+  background-color: var(--liteBlue);
+  display: inline-block;
+  width: 195px;
+  padding-top: 7px;
+}
+
+.project h3, .project a {
+  font-size: large;
+  text-align: center;
+  color: var(--darkBlue);
+}
+
+.project a {
+  line-height: 0;
+}
+
+.project h4 {
+  font-size: small;
+  color: var(--darkBlue);
+}

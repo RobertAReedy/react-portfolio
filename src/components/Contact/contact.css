@@ -1,0 +1,33 @@
+.contact-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-list a {
+  color: var(--darkBlue);
+  font-weight: bold;
+  border-bottom: var(--darkBlue) solid 4px;
+}
+
+.contact-label {
+  display: block;
+  margin: 10px 0 2px 0;
+  margin-left: 15px;
+}
+
+.contact-textarea {
+  min-width: 30%;
+  margin-left: 15px;
+  padding: 0 5px;
+  font-size: large;
+}
+
+.submit {
+  display: block;
+  margin: 10px 0px 10px 15px;
+}
+
+#message-text {
+  min-height: 150px;
+}

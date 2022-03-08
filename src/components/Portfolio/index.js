@@ -7,15 +7,15 @@ function Portfolio() {
 			<h2 class="col-3 header-text">Work</h2>
 
 			<article class="work-container col-9">
-				<div class="project feature">
+				<div class="project" id="reading-rambo">
 					<div>
-						<a href="https://github.com/wolfgarb/dnd-character-creator">
-							DnD Character Generator
+						<a href="https://github.com/cshepscorp/reading-rambo">
+							Reading Rambo: Media Suggestion App
 						</a>
-						<h4>Used HTML, CSS, and JavaScript</h4>
+						<h4>Used HTML, CSS, Javascript, and SQL</h4>
 					</div>
 				</div>
-				<div class="project" id="proj-1">
+				<div class="project" id="pokegen">
 					<div>
 						<a href="https://github.com/RobertAReedy/pokegen">
 							Pokegen: Pokemon Generator
@@ -23,12 +23,12 @@ function Portfolio() {
 						<h4>Used HTML, CSS, Javascript, and SQL</h4>
 					</div>
 				</div>
-				<div class="project" id="proj-2">
+				<div class="project" id="dnd">
 					<div>
-						<a href="https://github.com/cshepscorp/reading-rambo">
-							Reading Rambo: Media Suggestion App
+						<a href="https://github.com/wolfgarb/dnd-character-creator">
+							DnD Character Generator
 						</a>
-						<h4>Used HTML, CSS, Javascript, and SQL</h4>
+						<h4>Used HTML, CSS, and JavaScript</h4>
 					</div>
 				</div>
 				<div class="project" id="proj-3">

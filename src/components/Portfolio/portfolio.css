@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .project {
@@ -10,29 +10,24 @@
   border: var(--liteBlue) solid 4px;
   display: inline-block;
   margin-bottom: 20px;
-  width: 49%;
+  width: 400px;
   background-image: url(../../images/default.jpeg);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
+  background-color: black;
 }
 
-.feature {
-  display: block;
-  width: 100%;
+#dnd {
   background-image: url(../../images/dndDragon.jpg);
 }
 
-#proj-1 {
+#pokegen {
   background-image: url(../../images/hero-pokegen_bg.png);
-  background-size:cover;
-  background-position: center;
 }
 
-#proj-2 {
+#reading-rambo {
   background-image: url(../../images/rr-icon.png);
-  background-size:cover;
-  background-position: center;
 }
 
 .project div {

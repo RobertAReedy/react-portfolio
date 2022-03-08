@@ -20,11 +20,6 @@ function Header(props) {
             Portfolio
           </li>
           <li onClick={() => {
-            setCurrentPage("Contact")
-          }}>
-            Contact Me
-          </li>
-          <li onClick={() => {
             setCurrentPage("Resume")
           }}>
             Resume

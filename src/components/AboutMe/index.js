@@ -8,7 +8,7 @@ function AboutMe() {
     <section class="about-me" id="about-me">
       <h2 class="header-text">About Me</h2>
       <p class="about-me-p">{brandStatement}</p>
-      
+      <br></br><br></br><br></br>
     </section>
   );
 }

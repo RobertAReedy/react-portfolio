@@ -31,18 +31,6 @@ function Portfolio() {
 						<h4>Used HTML, CSS, and JavaScript</h4>
 					</div>
 				</div>
-				<div class="project" id="proj-3">
-					<div>
-						<h3>A Project Name</h3>
-						<h4>The languages it used</h4>
-					</div>
-				</div>
-				<div class="project" id="proj-4">
-					<div>
-						<h3>A Project Name</h3>
-						<h4>The languages it used</h4>
-					</div>
-				</div>
 			</article>
 		</section>
 	);

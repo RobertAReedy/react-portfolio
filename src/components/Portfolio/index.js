@@ -9,7 +9,7 @@ function Portfolio() {
 			<article class="work-container col-9">
 				<div class="project" id="reading-rambo">
 					<div>
-						<a href="https://github.com/cshepscorp/reading-rambo">
+						<a href="https://github.com/cshepscorp/reading-rambo" target="_blank" rel="noreferrer">
 							Reading Rambo: Media Suggestion App
 						</a>
 						<h4>Used HTML, CSS, Javascript, and SQL</h4>
@@ -17,7 +17,7 @@ function Portfolio() {
 				</div>
 				<div class="project" id="pokegen">
 					<div>
-						<a href="https://github.com/RobertAReedy/pokegen">
+						<a href="https://github.com/RobertAReedy/pokegen" target="_blank" rel="noreferrer">
 							Pokegen: Pokemon Generator
 						</a>
 						<h4>Used HTML, CSS, Javascript, and SQL</h4>
@@ -25,7 +25,7 @@ function Portfolio() {
 				</div>
 				<div class="project" id="dnd">
 					<div>
-						<a href="https://github.com/wolfgarb/dnd-character-creator">
+						<a href="https://github.com/wolfgarb/dnd-character-creator" target="_blank" rel="noreferrer">
 							DnD Character Generator
 						</a>
 						<h4>Used HTML, CSS, and JavaScript</h4>

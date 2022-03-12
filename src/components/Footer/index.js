@@ -12,6 +12,10 @@ const Footer = () => {
         <li>
           <a href="https://github.com/RobertAReedy/" target="_blank" rel="noreferrer" className="footer-link">Github</a>
         </li>
+        <li>|</li>
+        <li>
+          <a href="mailto:robertandreedy@gmail.com" target="_blank" rel="noreferrer" className="footer-link">Email Me</a>
+        </li>
       </ul>
     </footer>
   );

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5f1f7866.css",
-    "main.js": "/react-portfolio/static/js/main.f595ef63.js",
+    "main.css": "/react-portfolio/static/css/main.a08f808e.css",
+    "main.js": "/react-portfolio/static/js/main.b8c3866f.js",
     "static/js/787.b1cce0a8.chunk.js": "/react-portfolio/static/js/787.b1cce0a8.chunk.js",
     "static/media/dndDragon.jpg": "/react-portfolio/static/media/dndDragon.ad3527db0fe75dc1a20e.jpg",
     "static/media/default.jpeg": "/react-portfolio/static/media/default.123583c67f57179cd479.jpeg",
     "static/media/hero-pokegen_bg.png": "/react-portfolio/static/media/hero-pokegen_bg.abb7f0ea5cd0d2257a3f.png",
     "static/media/rr-icon.png": "/react-portfolio/static/media/rr-icon.11bc5fe8bd8479c4deca.png",
-    "static/media/placeholder-resume.docx": "/react-portfolio/static/media/placeholder-resume.1d7c30c8c5caec47d7ef.docx",
+    "static/media/RReedy_Resume_3-22.docx": "/react-portfolio/static/media/RReedy_Resume_3-22.ee3308e861932d734707.docx",
     "index.html": "/react-portfolio/index.html",
-    "main.5f1f7866.css.map": "/react-portfolio/static/css/main.5f1f7866.css.map",
-    "main.f595ef63.js.map": "/react-portfolio/static/js/main.f595ef63.js.map",
+    "main.a08f808e.css.map": "/react-portfolio/static/css/main.a08f808e.css.map",
+    "main.b8c3866f.js.map": "/react-portfolio/static/js/main.b8c3866f.js.map",
     "787.b1cce0a8.chunk.js.map": "/react-portfolio/static/js/787.b1cce0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f1f7866.css",
-    "static/js/main.f595ef63.js"
+    "static/css/main.a08f808e.css",
+    "static/js/main.b8c3866f.js"
   ]
 }
